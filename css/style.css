@@ -1,0 +1,107 @@
+.main-showcase{
+  color: white;
+  font-family: "Open Sans";
+  text-align: center;
+  display: table;
+  padding: 0;
+  margin-top: 90px;
+  width: 100%;
+}
+.no-padding{
+  padding-left: 0;
+  padding-right: 0;
+}
+.main-showcase-msg{
+  background:url('../img/bg2.jpg');
+  background-size: cover;
+  height: 500px;
+  padding: 5em;
+  padding-top: 10em;
+}
+
+.showcase-side{
+  border:1px solid gray;
+  height: 250px;
+}
+
+.showcase-side-msg{
+
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d7dfe5+13,000000+100&0+13,0.75+100 */
+  background: -moz-linear-gradient(top,  rgba(215,223,229,0) 13%, rgba(0,0,0,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  rgba(215,223,229,0) 13%,rgba(0,0,0,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  rgba(215,223,229,0) 13%,rgba(0,0,0,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00d7dfe5', endColorstr='#bf000000',GradientType=0 ); /* IE6-9 */
+
+  bottom: 0;
+  padding-top: 3em;
+  height: 100%;
+}
+
+.showcase-subs{
+  text-shadow: 1px 1px 5px #000;
+
+}
+.navbar-blue{
+  background: #fff;
+}
+
+.navbar-nav > li > a:hover{
+  background: #fff;
+}
+
+.navbar-nav > li > a{
+  font-family: "Roboto";
+  height: 90px;
+  padding: 35px;
+  font-size: 1.2em;
+}
+.navbar-brand{
+  height: 90px;
+}
+
+h1,h2,h3,h4,h5{
+  font-weight: bold;
+  font-family: "Roboto";
+}
+
+.btn-showcase{
+  background: #1C7293;
+  box-shadow: 0px 3px 0px #1B3B6F;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.2em;
+  padding:0.5em 2em;
+  margin-top: 1.8em;
+}
+.btn-showcase:hover{
+  background: #065A82;
+  color: #fff;
+}
+
+/* GA dropdown */
+.dropdown-menu{
+  width: 20em;
+  box-shadow: none;
+}
+ul.nav li.dropdown:hover > ul.dropdown-menu {
+  margin-top: -10px;
+  display: block;    
+  border:0;
+}
+ul.dropdown-menu > li > a{
+  padding: 1em;
+}
+
+ul.dropdown-menu > li > a:hover{
+  background: #fff;
+  color: #232323;
+}
+
+.dropdown-header{
+  padding-top: 1em;
+  font-size: 1em;
+  padding-left: 1em;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+
